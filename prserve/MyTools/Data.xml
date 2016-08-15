@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<INFOS>
+  <G ID="0" cellphonenumber="021-5555555">
+    <module ID="01" name="锁定板系统" englishname="Locking Plate System">
+      <sub name="手部" englishname="Wrist System"></sub>
+      <sub name="腕部" englishname="Wrist System"></sub>
+      <sub name="尺桡骨" englishname="Ulna&amp;Radius" >
+        <product name="尺、桡骨锁定接骨板" modle="aaaaaa.assetbundle" texture="Icon/LOGO.png" description="Icon/huasen_logo.png"/>
+        <product name="尺骨鹰嘴锁定接骨板" modle="Suogu.assetbundle" texture="Icon/LOGO.png" description="Icon/huasen_logo.png"/>
+        <product name="小T型锁定接骨板" modle="Suogu.assetbundle" texture="Icon/LOGO.png" description="Icon/huasen_logo.png"/>
+        <product name="小斜T型锁定接骨板" modle="Suogu.assetbundle" texture="Icon/LOGO.png" description="Icon/huasen_logo.png"/>
+        <product name="桡骨远端掌侧锁定接骨板I型" modle="Xiaogu.assetbundle" texture="Icon/LOGO.png" description="Icon/huasen_logo.png"/>
+        <product name="桡骨远端掌侧锁定接骨板I型（YAP型）" modle="Xiaogu.assetbundle" texture="Icon/LOGO.png" description="Icon/huasen_logo.png"/>
+        <product name="桡骨远端掌侧近关节LCP锁定板2.4" modle="aaaaaa.assetbundle" texture="Icon/LOGO.png" description="Icon/huasen_logo.png"/>
+        <product name="桡骨远端掌侧系列" modle="Xiaoguxing.assetbundle" texture="Icon/LOGO.png" description="Icon/huasen_logo.png"/>
+      </sub>
+      <sub name="肱骨" englishname="Humerus"></sub>
+      <sub name="锁骨" englishname="Clavicle"></sub>
+      <sub name="骨盆" englishname="Pelvis"></sub>
+      <sub name="股骨" englishname="Pelvis"></sub>
+      <sub name="胫、腓骨" englishname="Tibia&amp;Fibula"></sub>
+    </module>
+    <module  ID="02" name="内钉系统" englishname="Intramedullary Nail System">
+    </module>
+    <module  ID="03" name="足踝系统" englishname="Ankle System">
+    </module>
+    <module  ID="04" name="外固定支架系统" englishname="External Fixator System">
+    </module>
+    <module  ID="05" name="胸腰椎钉棒系统" englishname="Thoracic&amp;Lumbar Fixation System">
+    </module>
+    <module  ID="06" name="MASTER9颈椎内固定系统" englishname="MASTER 9 Spinal Fixation System ">
+    </module>
+    <module  ID="07" name="PEEK融合系统" englishname="PEEK Cage">
+    </module>
+
+  </G>
+  <X ID="1">
+    <module  ID="10" name="肋骨内固定系统" englishname="Patented Rib Plate System"/>
+   
+    <module  ID="11" name="胸骨内固定系统" englishname="Sternal Fixation System"/>
+    <module  ID="12" name="牵开器系列" englishname="Retractor System"/>
+  </X>
+  <W ID="2">
+    <module  ID="20" name="腔镜吻合器" englishname="Endoscopic stapler"/>
+    <module  ID="21" name="三排钉吻合器" englishname="Three Rows Stapler"/>
+    <module  ID="22" name="管型吻合器" englishname="Circular Stapler"/>
+    <module  ID="23" name="PHH肛肠吻合器" englishname="PPH Stapler"/>
+    <module  ID="24" name="直线切割吻合器" englishname="Linear Cutter"/>
+    <module  ID="25" name="弧形切割吻合器" englishname="Curved Stapler"/>
+    <module  ID="26" name="直线吻合器" englishname="Linear Stapler"/>
+    <module  ID="27" name="荷包吻合器" englishname="Disposable Trocar "/>
+  </W>
+</INFOS>
