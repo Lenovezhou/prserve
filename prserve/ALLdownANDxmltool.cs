@@ -278,6 +278,25 @@ public class ALLdownANDxmltool : MonoBehaviour {
         }
     }
 
+	//	NOTE: Sprite can NOT use LoadAsync
+	//	如果需要动态更新，又要使用Sprite Packer，最好的解决方案是用AssetBundle，
+	//	将你需要Sprite Packer到一起的Sprites打入同一个Assetbundle中。更新的时候只需要更新这个Assetbundle即可。加载：
+
+	//	编辑器加载图片方法：
+	//UnityEditor.Assetdatabase.LoadAssetAtPath<Sprite>("your assetbundle path");
+
+	public void BoundleToSprite()
+	{
+	WWW www = new WWW("your assetbundle path");
+	yield return www;
+	AssetBundle assetBundle = www.assetBundle;
+		Sprite sprite = assetBundle.LoadAsset<Sprite>("spriteName");
+	//	或者
+	Sprite[] sprites = assetBundle.LoadAllAsset<Sprite>();
+	}
+
+
+
     /// <summary>
     /// 下载movie的方法方式
     /// </summary>
